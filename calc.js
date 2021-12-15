@@ -1,5 +1,5 @@
 let prevVal = "";
-let newVal = "";
+let newVal = "0";
 let resultVal = "";
 let mathOperator = "";
 let decimalClicked = false;
@@ -61,7 +61,7 @@ function equalButPress() {
 
 function clearButPress() {
     prevVal = "";
-    newVal = "";
+    newVal = "0";
     resultVal = "";
     mathOperator = "";
     decimalClicked = false;
